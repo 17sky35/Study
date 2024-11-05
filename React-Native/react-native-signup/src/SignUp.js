@@ -30,6 +30,7 @@ const Button = styled.Pressable`
 const SignUp = ()=>{
     const [password,setPassword] = useState("");
     const [passwords,setPasswords] = useState("");
+    
     return(
         <View>
             <TitleText>회원가입</TitleText>
